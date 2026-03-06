@@ -78,13 +78,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67EAFED92F445E5300265762 = {
+		67BE65932F5A9D9100EEC12C /* App */ = {
+			isa = PBXGroup;
+			children = (
+				67EAFEE52F445E5300265762 /* SXF_V4App.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		67BE65942F5A9DAA00EEC12C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				67EAFEE72F445E5300265762 /* ContentView.swift */,
+				67541A772F496211009D1DC3 /* DollSceneView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		67BE65952F5A9DC400EEC12C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				67EAFF122F445EDF00265762 /* AudioManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		67BE65962F5A9DD800EEC12C /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				676EB9852F567DB50073798A /* AudioDocument.swift */,
-				67EAFF122F445EDF00265762 /* AudioManager.swift */,
-				67541A772F496211009D1DC3 /* DollSceneView.swift */,
-				67EAFEE42F445E5300265762 /* SXF.V4 */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		67BE65972F5A9DEF00EEC12C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				67EAFEE92F445E5600265762 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		67EAFED92F445E5300265762 = {
+			isa = PBXGroup;
+			children = (
+				67BE65932F5A9D9100EEC12C /* App */,
+				67BE65942F5A9DAA00EEC12C /* Views */,
+				67BE65952F5A9DC400EEC12C /* Managers */,
+				67BE65962F5A9DD800EEC12C /* Models */,
+				67BE65972F5A9DEF00EEC12C /* Assets */,
+				67EAFEEE2F445E5600265762 /* SXF_V4.entitlements */,
+				67EAFEEB2F445E5600265762 /* Preview Content */,
 				67EAFEF62F445E5600265762 /* SXF.V4Tests */,
 				67EAFF002F445E5600265762 /* SXF.V4UITests */,
 				67EAFEE32F445E5300265762 /* Products */,
@@ -99,18 +143,6 @@
 				67EAFEFD2F445E5600265762 /* SXF.V4UITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		67EAFEE42F445E5300265762 /* SXF.V4 */ = {
-			isa = PBXGroup;
-			children = (
-				67EAFEE52F445E5300265762 /* SXF_V4App.swift */,
-				67EAFEE72F445E5300265762 /* ContentView.swift */,
-				67EAFEE92F445E5600265762 /* Assets.xcassets */,
-				67EAFEEE2F445E5600265762 /* SXF_V4.entitlements */,
-				67EAFEEB2F445E5600265762 /* Preview Content */,
-			);
-			path = SXF.V4;
 			sourceTree = "<group>";
 		};
 		67EAFEEB2F445E5600265762 /* Preview Content */ = {
@@ -432,11 +464,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SXF.V4/SXF_V4.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SXF_V4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SXF.V4/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6LJBU455JG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -462,11 +494,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SXF.V4/SXF_V4.entitlements;
+				CODE_SIGN_ENTITLEMENTS = SXF_V4.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SXF.V4/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 6LJBU455JG;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
